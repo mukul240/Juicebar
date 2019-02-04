@@ -1,0 +1,293 @@
+$primary-color: #FFA500;
+$primary-font: 'Poppins', sans-serif;
+$font-family2: 'Fira Sans', sans-serif;
+$font-family3: 'B612 Mono', monospace;
+$font-family4: 'Open Sans Condensed', sans-serif;
+$font-family4: 'Rubik', sans-serif;
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: $primary-font;
+    text-align: center;
+    // background-color: #F0DF87;
+}
+h3{
+    color: $primary-color;
+    font-family: $font-family4;
+}
+.i{
+    color: rgb(201, 46, 46);
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 2rem;
+    ;
+}
+#menubar hr{
+    border-top: 1rem dotted orange;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.orange{
+    color: $primary-color;
+    background-color: #fff;
+    padding-bottom: 2rem;
+}
+.orange-text{
+    color: $primary-color;
+}
+.btn{
+     text-align: center;
+     padding-left: 2.5rem;
+     padding-right: 2.5rem;
+     margin-left: 25px;
+     margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: $primary-color;
+ 
+    
+}
+.brand{
+    height: 50px;
+}
+.nav-item{
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color: green;
+}
+.nav-link{
+    color: aliceblue;
+}
+
+.main-section{
+   
+   
+    background-color: $primary-color;
+   
+    border-bottom-left-radius: 100%;
+}
+.main-pic{
+    height: 50rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+}
+.heading{
+    padding-right: 4rem;
+    
+}
+.heading h1{
+    padding-top: 10rem;
+    color: rgb(29, 28, 23);
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.heading p{
+    color: rgb(255, 56, 56);
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+.button{
+    text-align: center;
+    margin-top: 3rem;
+}
+#menubar{
+    margin-top: 3rem;
+    
+    background-color: #ee767631;
+    border-top-right-radius: 100%;
+    padding-bottom: 2rem;
+    
+}
+
+
+
+
+.menubar h1{
+    font-family: $font-family3;
+}
+.card-img-top{
+    height: 30rem;
+    
+}
+.card{
+    margin-top: 3rem;
+}
+.carousel{
+    background-color: rgba(255, 166, 0, 0.137);
+    padding-bottom: 3rem;
+}
+.carousel-inner{
+    text-align: center;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    outline: black;
+    
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    
+    background-image: none;
+    
+}
+.carousel-control-prev-icon:after{
+    content: '<';
+    font-size: 55px;
+    color: orange;
+}
+.carousel-control-next-icon:after{
+    content: '>';
+    font-size: 55px;
+    color: orange;
+}
+.padding{
+    padding-top: 1rem;
+    margin-top: 3rem;
+    
+}
+.persons-pic{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 3rem;
+    
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgba(104, 39, 39, 0.76);
+   margin-top: 3rem;
+   color: $primary-color;
+}
+.row{
+    padding-top: 1rem;
+    text-align: left;
+}
+.footer-left{
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 5%;
+   
+}
+footer p{
+    padding-top: 1rem;
+    color: white;
+
+}
+.links a{
+    color: $primary-color;
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+.links{
+    margin-top: 2rem;
+    padding-bottom: 1rem; 
+}
+.links p{
+    padding-top: 2rem;
+}
+#gallery{
+    margin-top: 4rem;
+    background-image: url(images/gallery/main2.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 540px) {
+    .main-pic {
+        height: 25rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 0%;
+    }
+    h3{
+        text-align: center;
+    }
+    .heading h1{
+        // color: yellow;
+        padding-top: 1rem;
+        padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 3rem;
+    }
+    .heading p{
+        font-size: 1.5rem;  
+    }
+    .heading{
+        padding: 1rem;
+
+    }
+    .btn{ margin-top: 1rem;
+
+    }
+    #menubar{
+        border-top-right-radius:0%;
+    }
+   p{
+        text-align: center;
+    }
+    footer{
+        text-align: center; 
+    }
+    #gallery {
+        background-attachment: scroll;
+      }
+      h2{
+          text-align: center;
+          padding-top: 2rem;
+          border-top: 1px solid $primary-color;
+      }
+      footer img{
+          margin-left: 25%;
+          margin-right: 30%;
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+      }
+      .main-section{
+   
+   
+        background-color: $primary-color;
+       
+        border-bottom-left-radius: 0;
+    }
+    
+
+  }
+
+  
